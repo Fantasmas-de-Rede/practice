@@ -3,8 +3,8 @@
 ---
 
 Here are the contents for the moment:  
-- Start of keylogger practice in python  
-- Start of ransomware practice in simulation
+- finished keylogger practice in python  
+- finished ransomware practice in simulation
 
 ---
 
