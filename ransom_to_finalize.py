@@ -1,4 +1,4 @@
-# Script by : https://bsky.app/profile/leandroAlv.bsky.social
+#script by : Fantasmas da Reye
 import os
 
 # Dossier cible  
